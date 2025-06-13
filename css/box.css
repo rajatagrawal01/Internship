@@ -1,0 +1,11 @@
+.box{
+    width: 50%;  /* vw,px,%,em,rem */
+    height: 50%;
+    /* Background color - name, hex, rgb, rgba,hsl */
+    /* background-color: blue;  */
+    /* background-color: rgb(255,0,255); */
+    /* background-color: #B3261E; */
+    background-color: hsl(134, 86%, 61%);
+    color: white; /* Text color */
+    border: 5px ridge  black; /* Border style : width type(solid,dotted,dashed) color */
+}

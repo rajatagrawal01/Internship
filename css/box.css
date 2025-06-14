@@ -1,11 +1,53 @@
 .box{
-    width: 50%;  /* vw,px,%,em,rem */
-    height: 50%;
+    width: 600px;  /* vw,px,%,em,rem */
+    height: 400px;
     /* Background color - name, hex, rgb, rgba,hsl */
     /* background-color: blue;  */
     /* background-color: rgb(255,0,255); */
     /* background-color: #B3261E; */
-    background-color: hsl(134, 86%, 61%);
-    color: white; /* Text color */
-    border: 5px ridge  black; /* Border style : width type(solid,dotted,dashed) color */
+    /* background-color: yellow; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s"); */
+    background-image: url("../assets/iamge2.jpg");
+    background-size:contain; /*keeps aspect ratio same */
+    background-repeat: no-repeat; /* No repeat */
+    background-position: center; /* Center the image */
+    color: black; /*Text color */
+}
+.box2{
+    width: 400px;
+    height: 200px;
+    background-color: #B3261E;
+}
+
+.box-structure{
+    /* padding: 20px; */
+    /* padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px; */
+    /* padding: 50px 10px 100px 200px; top right bottom left */
+    /* padding: 20px 10px; */
+
+
+    /* margin: 20px; */
+    /* margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 50px; */
+    /* margin: 50px 10px 100px 200px; top right bottom left */
+    /* margin: 20px 10px; */
+
+    /* Border width, style, color */
+    /* border: 10px solid black;  */
+
+    border-left: 10px solid black;
+    border-top: 10px dotted red;
+    border-right: 10px dashed green;
+    border-bottom: 10px double blue;
+    border-radius: 50px; /* Rounded corners */
+
+
+
+
+
 }

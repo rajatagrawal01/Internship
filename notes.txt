@@ -1,0 +1,114 @@
+CSS - Cascading Style Sheet
+
+1-Styling
+2-UI-User interface
+
+
+Types of CSS:
+1-Inline
+2-Internal
+3-External
+
+Priorities:
+
+Dev's priority - 
+	External CSS>Internal CSS>Inline CSS
+
+Browser priorities -
+	Inline CSS>Internal CSS > External CSS
+
+
+CSS Selectors:
+	1-Element Selector
+	2-Class Selector
+	3-Id Selector
+
+
+
+CSS basic requirements
+1-style declaration-  			style
+2-Element-select to apply style-	h1
+3-Style property name- 			color
+4-Style property value-			red
+
+Dev's priority - 
+	Element Selector>Class selector>Id Selector
+
+Browser priorities -
+	Id Selector>Class selector>Element Selector
+
+
+Id will always be unique to a single element
+Class - Single or multiple elements
+
+RGB- Red, green, blue - 0,0,0 to 255,255,255
+HEX- 0-f, 3 digit hex(000-fff), 6 digit hex(000000-ffffff) 
+
+_,_,_ -> 0,0,0 -> 16,16,16
+__,__,__ -> 0f,00,00 -> 256,256,256
+
+16*16
+
+00
+01
+02
+.
+.
+.
+0f
+10
+12
+13
+.
+.
+.
+.
+1f
+20
+21
+22
+.
+.
+.
+.
+2f
+30
+31
+
+
+
+
+9f
+a0
+a1
+.
+.
+.
+.
+af
+b0
+b1
+
+
+
+
+
+ff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

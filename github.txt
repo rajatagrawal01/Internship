@@ -1,0 +1,11 @@
+Steps
+1- Signup on github
+2- Download Github - https://git-scm.com/downloads
+3- Configure github on vs code
+    I-  open command prompt (Ctrl+`)
+    II- git config -g user.name "username"
+    III-git config -g user.email "emaiID"
+
+4- Open CMD in project folder
+    git init
+    

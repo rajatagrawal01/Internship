@@ -12,6 +12,7 @@
     background-repeat: no-repeat; /* No repeat */
     background-position: center; /* Center the image */
     color: black; /*Text color */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Shadow effect */
 }
 .box2{
     width: 400px;

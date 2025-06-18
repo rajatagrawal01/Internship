@@ -1,54 +1,40 @@
-.box{
-    width: 600px;  /* vw,px,%,em,rem */
-    height: 400px;
-    /* Background color - name, hex, rgb, rgba,hsl */
-    /* background-color: blue;  */
-    /* background-color: rgb(255,0,255); */
-    /* background-color: #B3261E; */
-    /* background-color: yellow; */
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s"); */
-    background-image: url("../assets/iamge2.jpg");
-    background-size:contain; /*keeps aspect ratio same */
-    background-repeat: no-repeat; /* No repeat */
-    background-position: center; /* Center the image */
-    color: black; /*Text color */
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Shadow effect */
+.box-size{
+    width: 180px;
+    height: 180px;
+    /* margin-top: 200px; */
+    /* margin-bottom: 200px; */
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+    margin: 200px;
+    padding: 50px;
+    float: left;
 }
-.box2{
-    width: 400px;
-    height: 200px;
-    background-color: #B3261E;
+.box-border{
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: black; */
+    border: 10px solid black;
+    /* border-right-color: black; */
+    
+    /* border-right: 10px solid black;
+    border-left: 10px dashed black;
+    border-top: 10px dotted black;
+    border-bottom: 10px double black; */
+
+    /* border-radius: 100px; */
 }
+.box-background{
+    background-color: hsl(217, 73%, 88%);
+    background-image: url("assets/image.jpg");
+    
+    /* Default image size */
+    /* background-size: auto; */
+    
+    /* Increase size keeping aspect ratio same, stops if one of the border touches */
+    background-size: 100% 100%; 
 
-.box-structure{
-    /* padding: 20px; */
-    /* padding-left: 20px;
-    padding-top: 30px;
-    padding-right: 40px;
-    padding-bottom: 50px; */
-    /* padding: 50px 10px 100px 200px; top right bottom left */
-    /* padding: 20px 10px; */
+    /* Increase size keeping aspect ratio same, stops when last of the border touches image */
+    /* background-size: cover;  */
 
-
-    /* margin: 20px; */
-    /* margin-left: 20px;
-    margin-top: 30px;
-    margin-right: 40px;
-    margin-bottom: 50px; */
-    /* margin: 50px 10px 100px 200px; top right bottom left */
-    /* margin: 20px 10px; */
-
-    /* Border width, style, color */
-    /* border: 10px solid black;  */
-
-    border-left: 10px solid black;
-    border-top: 10px dotted red;
-    border-right: 10px dashed green;
-    border-bottom: 10px double blue;
-    border-radius: 50px; /* Rounded corners */
-
-
-
-
-
+    background-repeat: no-repeat;
 }

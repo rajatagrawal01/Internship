@@ -1,0 +1,32 @@
+var marks=90
+
+// if(a>18){
+//     console.log("Person is eligible for driving");
+// }
+// else if(a==18){
+//     console.log("Person is eligible for learning licence");
+// }
+// else{
+//         console.log("Person is not eligible for driving");
+// }
+
+if(marks>=33){
+    if(marks>=60 && marks<75){
+        console.log("Passed with first divison");
+    }
+    else if(marks>=75 && marks<90){
+        console.log("Passed with distinction");
+    }
+    else if(marks>=90){
+        console.log("Merit");
+    }
+    else{
+        console.log("Passed");
+    }
+}
+else{
+    console.log("Failed")
+}
+
+
+

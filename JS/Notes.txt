@@ -1,0 +1,51 @@
+Types of variables:
+integer
+float
+string - "words" "hello" "3"
+boolen -true/false,
+
+var a=34
+
+
+
+
+Operators- Operators are used to perform operations on operands
+
+Types of operators- 
+
+1-Arithmatic Operators
++,-,*,/,%
+
+2-Comparison operators
+==,!==,<,>,<=,>=
+
+3-Assignment operators
+=,+=,-=,*=,/=,%=
+
+4-Increment/decrement operators
+++(a+=1),--(a-=1)
+
+5- Logical operators
+&&, ||, !
+
+
+conditional statements:
+
+if(condition){
+    operation
+}
+else{
+    2nd operation
+}
+Possibilities-
+
+1- if
+2- if else
+3- if else if else
+4- if else if
+5- else (not possible)
+
+
+234
+
+

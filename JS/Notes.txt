@@ -1,51 +1,42 @@
-Types of variables:
-integer
-float
-string - "words" "hello" "3"
-boolen -true/false,
-
-var a=34
+JS- Java script
+	1-Interpreter type language
+	2-Logical Language
+	3-UXperince
 
 
+0100100110 - byte code
 
 
-Operators- Operators are used to perform operations on operands
+variable - container to store a value
 
-Types of operators- 
-
-1-Arithmatic Operators
-+,-,*,/,%
-
-2-Comparison operators
-==,!==,<,>,<=,>=
-
-3-Assignment operators
-=,+=,-=,*=,/=,%=
-
-4-Increment/decrement operators
-++(a+=1),--(a-=1)
-
-5- Logical operators
-&&, ||, !
+const = values cannot change
+let = scope- based
 
 
-conditional statements:
+Loops:
+Loops are used for running operations on repetative mode
+	var, operation, increment/decremtn, condition
+do While
+while 
+for
 
-if(condition){
-    operation
-}
-else{
-    2nd operation
-}
-Possibilities-
+Do-while loop:
 
-1- if
-2- if else
-3- if else if else
-4- if else if
-5- else (not possible)
+	var declaration
+	do{
+		operation
+		increment/decrement
+	}while(condition)
 
+While(Jabtak) loop:
 
-234
+	var declaration
+	while(condition){
+		operation
+		increment/decrement
+	}
 
-
+For(ke lie) Loop:
+	for (var declaration; condition;increment/decrement){
+		operation
+	}

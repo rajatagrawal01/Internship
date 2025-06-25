@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,33 @@
     <!-- External JS -->
     <!-- <script src="first.js"></script>  -->
     <!-- <script src="operators.js"></script> -->
-    <script src="conditions.js"></script>
+    <!-- <script src="conditions.js"></script> -->
     <!-- <script src="ascii.js"></script> -->
-     <!-- <script src="loops.js"></script> -->
+    <!-- <script src="loops.js"></script> -->
     <!-- <script src="input.js"></script> -->
-     <!-- <script src="preDefined-const.js"></script> -->
-      <!-- <script src="consoles.js"></script> -->
-    </head>
+    <!-- <script src="preDefined-const.js"></script> -->
+    <!-- <script src="consoles.js"></script> -->
+    <!-- <script src="functions.js"></script> -->
+</head>
 
 <title>Hello</title>
+
 <body>
+    <h1 id="result"> </h1>
     <!-- <input id="input" type="number">
     <button onclick=inputNumber()>Click</button> -->
 </body>
+
+<script>
+    var a = parseFloat(prompt("Enter a number"));
+    var b = parseFloat(prompt("Enter another number"));
+
+    function add(a, b) {
+        var c = a + b;
+        var results = document.getElementById("result");
+        results.textContent = "The sum is: " + c;
+    }
+    add(a, b);
+</script>
+
 </html>

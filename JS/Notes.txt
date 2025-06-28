@@ -40,3 +40,14 @@ For(ke lie) Loop:
 	for (var declaration; condition;increment/decrement){
 		operation
 	}
+
+
+
+
+Events:
+1-Click (left-Click,right-click,double-click)
+2-Scroll
+3-Zoom
+4-hover
+5-mouse -in, mouse out
+6-keydown,keyup

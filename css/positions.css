@@ -1,30 +1,41 @@
+/* Position property: 
+    static   :Default Position
+    relative : podition related to its original position. Top,left,bottom,right,z-index
+    absolute : position related to the nearest parent. If no such ancestor, then parent. But parent's positon must not be static
+    fixed : position related to the viewport. It will not move when scrolling
+    sticky: position related to the viewport, but it will move with scrolling until a certain point, then it will become fixed
+*/
+
 .box1{
     width: 600px;
     height: 100px;
-    background-color: lightblue;
     border: 2px solid black;
     margin: 2px;
+
+    background-color: lightblue;
     
 }
 .box2{
     width: 600px;
     height: 100px;
-    background-color: lightgreen;
     border: 2px solid black;
     margin: 2px;
+
+    background-color: lightgreen;
     /* position: relative; */
-    position: fixed;
-    top: 100px;
+    /* position: fixed; */
+    /* position: sticky; */
+    top: 1px;
     z-index: 1; /* Ensures this box stays on top of others when scrolling */
 
 }
 .boxA{
     width: 300px;
     height: 50px;
-    background-color: lightpink;
     border: 2px solid black;
     margin: 2px;
-    position: absolute;
+    background-color: lightpink;
+    /* position: absolute; */
     top:10px;
     left: 20px;
 
@@ -32,26 +43,27 @@
 .boxAB{
     width: 100px;
     height: 20px;
-    background-color: lightyellow;
     border: 2px solid black;
-    position: absolute;
-    top: 5px;
-    left: 10px;
+    background-color: lightyellow;
+    /* position: absolute; */
+    top: 15px;
+    left: 25px;
 }
 .box3{
     width: 600px;
     height: 100px;
-    background-color: lightcoral;
     border: 2px solid black;
     margin: 2px;
-    position:sticky;
 
+    background-color: lightcoral;
+    /* position:sticky; */
 }
 .box4{
     width: 600px;
     height: 100px;
-    background-color: lightgoldenrodyellow;
     border: 2px solid black;
     margin: 2px;
+    position:sticky;
 
+    background-color: lightgoldenrodyellow;
 }

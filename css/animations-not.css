@@ -7,10 +7,15 @@
     color: yellow;
     transform-origin: left bottom;
 }
+
 .box:hover{
-    /* width: 600px;
-    height: 600px; */
     background-color: yellow;
     transform:translate(100px,100px) rotate(45deg) scale(2,2);
 
 }
+
+/* .box:hover{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+} */

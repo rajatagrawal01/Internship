@@ -20,21 +20,34 @@
 <title>Hello</title>
 
 <body>
-    <h1 id="result"> </h1>
-    <!-- <input id="input" type="number">
-    <button onclick=inputNumber()>Click</button> -->
+    <!-- <h1 id="result"> </h1> -->
+    <input id="value-one" type="number">
+    <input id="value-two" type="number">
+    <h1 id="result"></h1>
+    <button onclick=inputNumber()>Sum</button>
+    <input type="text">
 </body>
 
-<script>
+<!-- <script>
     var a = parseFloat(prompt("Enter a number"));
     var b = parseFloat(prompt("Enter another number"));
-
+    
     function add(a, b) {
         var c = a + b;
         var results = document.getElementById("result");
         results.textContent = "The sum is: " + c;
     }
     add(a, b);
-</script>
+</script> -->
 
+<script>
+    function inputNumber(){
+        var a= parseInt(document.getElementById("value-one").value);
+        var b= parseInt(document.getElementById("value-two").value);
+        var resultHeading=document.getElementById("result");
+        var c=a+b;
+        resultHeading.textContent = "The sum is: " + c;
+        // document.write("Sum of ",a," and ",b ," is: ",c);
+    }
+</script>
 </html>

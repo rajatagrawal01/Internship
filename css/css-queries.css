@@ -2,16 +2,18 @@
     background-color: blue;
 } */
 :root{
+    /* --variableName:value; */
     --customColor:green;
     --customColor2:orange;
     --spacing:10px;
 }
 *{
     /* margin: calc(var(--spacing)*10px); */
-    margin: var(--spacing);
+    /* margin: var(--spacing); */
+    margin: var(--spacing)
 }
 h1{
-    --customColor:green;
+    --customColor:blue;
     background-color:var(--customColor);
     color: yellow;
 }
@@ -19,8 +21,27 @@ h1{
 ul #first{
     background-color: var(--customColor2);
 }
-li:first-child{
+/* li:first-child{
     background-color: yellow;
+} */
+
+/* li:first-child{
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+} */
+li:nth-child(even){
+     background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+li:nth-child(odd){
+     background-color: rgb(244, 165, 165);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 div:last-child{

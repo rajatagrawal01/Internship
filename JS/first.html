@@ -15,39 +15,54 @@
     <!-- <script src="preDefined-const.js"></script> -->
     <!-- <script src="consoles.js"></script> -->
     <!-- <script src="functions.js"></script> -->
+     <style>
+        .verification {
+            visibility: hidden;
+        }
+     </style>
 </head>
 
 <title>Hello</title>
 
 <body>
     <!-- <h1 id="result"> </h1> -->
-    <input id="value-one" type="number">
-    <input id="value-two" type="number">
-    <h1 id="result"></h1>
-    <button onclick=inputNumber()>Sum</button>
-    <input type="text">
+    <!-- <input id="value-one" type="number">
+    <input id="value-two" type="number"> -->
+    <!-- <h1 id="result"></h1> -->
+    <!-- <button onclick=inputNumber()>Sum</button>
+    <input type="text" id="result"> -->
+
+
+
+    <!-- <form action="" id="myform">
+        <input type="text" id="password" placeholder="Enter Password">
+        <button type="submit" >Submit</button>
+    </form> -->
+
+    <input type="text" id="password" placeholder="Enter Password" onkeyup="checkPassword()">
+
+
+    <ul>
+        <h1>
+            <li id="length" class="verification"></li>
+        </h1>
+        <h1>
+            <li id="capital" class="verification">Atleast One capital</li>
+        </h1>
+        <h1>
+            <li id="small" class="verification">Atleast One Small</li>
+        </h1>
+        <h1>
+            <li id="number" class="verification">Atleast One Number</li>
+        </h1>
+        <h1>
+            <li id="spchar" class="verification">Atleast One special character</li>
+        </h1>
+    </ul>
+
 </body>
 
-<!-- <script>
-    var a = parseFloat(prompt("Enter a number"));
-    var b = parseFloat(prompt("Enter another number"));
-    
-    function add(a, b) {
-        var c = a + b;
-        var results = document.getElementById("result");
-        results.textContent = "The sum is: " + c;
-    }
-    add(a, b);
-</script> -->
 
-<script>
-    function inputNumber(){
-        var a= parseInt(document.getElementById("value-one").value);
-        var b= parseInt(document.getElementById("value-two").value);
-        var resultHeading=document.getElementById("result");
-        var c=a+b;
-        resultHeading.textContent = "The sum is: " + c;
-        // document.write("Sum of ",a," and ",b ," is: ",c);
-    }
-</script>
+<script src="dom.js"></script>
+
 </html>
